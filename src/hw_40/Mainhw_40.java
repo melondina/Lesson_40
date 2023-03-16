@@ -6,5 +6,8 @@ public class Mainhw_40 {
         System.out.println(human);
 
         human.greet();
+
+        Person human2 = new Man("Oleg");
+        System.out.println(human2);
     }
 }
