@@ -9,5 +9,7 @@ public class Mainhw_40 {
 
         Person human2 = new Man("Oleg");
         System.out.println(human2);
+        human2.setName("Ivan");
+        System.out.println(human2);
     }
 }
