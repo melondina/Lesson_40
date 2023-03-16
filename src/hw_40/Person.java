@@ -19,4 +19,8 @@ public class Person {
     public String toString() {
         return "Человек по имени " + name;
     }
+
+    public void greet() {
+        System.out.println("Я родился!");
+    }
 }
