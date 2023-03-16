@@ -11,5 +11,9 @@ public class Mainhw_40 {
         System.out.println(human2);
         human2.setName("Ivan");
         System.out.println(human2);
+
+        Person human3 = new Woman("Dina");
+        System.out.println(human3);
+        human3.greet();
     }
 }
